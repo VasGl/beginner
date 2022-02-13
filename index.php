@@ -5,9 +5,37 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="lib/style.css">
+
     <title>BEGINNER. ПРАКТИКА</title>
 </head>
 <body>
-<h1>“Hello, NIX Education”</h1>
+
+<header>
+    <h1>
+        <a href="#">BEGINNER. ПРАКТИКА</a>
+    </h1>
+</header>
+
+<nav>
+    <div class="nav">
+
+        <ul>
+            <li><a href="#">Урок 1</a></li>
+            <li><a href="#">Урок 2</a></li>
+        </ul>
+    </div>
+
+</nav>
+
+<main>
+    <h1>“Hello, NIX Education”</h1>
+</main>
+
+<footer>
+    <h5>footer</h5>
+</footer>
+
 </body>
 </html>
