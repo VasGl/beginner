@@ -1,41 +1,7 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<?php
 
-    <link rel="stylesheet" href="lib/style.css">
+$title = 'BEGINNER. ПРАКТИКА';
+//$main = '“Hello, NIX Education”';
 
-    <title>BEGINNER. ПРАКТИКА</title>
-</head>
-<body>
-
-<header>
-    <h1>
-        <a href="#">BEGINNER. ПРАКТИКА</a>
-    </h1>
-</header>
-
-<nav>
-    <div class="nav">
-
-        <ul>
-            <li><a href="#">Урок 1</a></li>
-            <li><a href="#">Урок 2</a></li>
-        </ul>
-    </div>
-
-</nav>
-
-<main>
-    <h1>“Hello, NIX Education”</h1>
-</main>
-
-<footer>
-    <h5>footer</h5>
-</footer>
-
-</body>
-</html>
+require_once 'lib/FTable.php';
+require_once 'views/PageTemplate.php';
