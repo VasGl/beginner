@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="lib/style.css">
 
     <title>
-        <?= $title?>
+        <?= $title ?>
     </title>
 </head>
 <body>
@@ -24,8 +24,8 @@
     <div class="nav">
 
         <ul>
-            <li><a href="lesson1.php">Урок 1</a></li>
-            <li><a href="#">Урок 2</a></li>
+            <li><a href="lesson1.php" class="<?= $active1 ?>">Урок 1</a></li>
+            <li><a href="lesson2.php" class="<?= $active2 ?>">Урок 2</a></li>
         </ul>
     </div>
 

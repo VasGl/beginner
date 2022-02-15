@@ -65,3 +65,16 @@ footer {
 footer h5 {
     text-align: right;
 }
+
+.one {
+    color: red;
+}
+.two {
+    color: green;
+}
+.three {
+    color: yellow;
+}
+.four {
+    color: blue;
+}
