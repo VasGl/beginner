@@ -26,6 +26,7 @@
         <ul>
             <li><a href="lesson1.php" class="<?= $active1 ?>">Урок 1</a></li>
             <li><a href="lesson2.php" class="<?= $active2 ?>">Урок 2</a></li>
+            <li><a href="lesson3.php" class="<?= $active3 ?>">Урок 3</a></li>
         </ul>
     </div>
 
@@ -33,7 +34,7 @@
 
 <main>
     <?php
-    require_once 'views/main.php';
+    require_once "views/$main";
     ?>
 </main>
 
