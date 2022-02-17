@@ -50,10 +50,34 @@ nav a:hover {
     color: #4d80e4;
 }
 
+.active {
+    padding-left: 20px;
+    background-color: #eef1f9;
+    font-weight: 800;
+}
+
 main {
     grid-column: 2;
     padding: 10px;
     background-color: #fff;
+}
+
+.h2 {
+    color: #4d80e4;
+}
+
+.table {
+    border: 1px solid black;
+}
+
+.table td {
+    padding: 10px;
+    padding-right: 30px;
+    border: 1px solid black;
+}
+
+.colorTable {
+    background-color: #A1ACBD;
 }
 
 footer {
@@ -69,12 +93,15 @@ footer h5 {
 .one {
     color: red;
 }
+
 .two {
     color: green;
 }
+
 .three {
     color: yellow;
 }
+
 .four {
     color: blue;
 }

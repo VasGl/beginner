@@ -1,4 +1,5 @@
 <?php
+
 $title = 'Урок 1';
 $active1 = 'active';
 
